@@ -378,6 +378,7 @@ proxy-groups:
   #  其他规则组
   - { name: AI, type: select, proxies: [🇺🇸 美国自动选择, 🇸🇬 新加坡自动选择, 🇺🇸 美国节点, 🇸🇬 新加坡节点, PROXY] }
   - { name: Microsoft, type: select, proxies: [DIRECT, PROXY, 🇭🇰 香港自动选择, 🇺🇸 美国自动选择] }
+  - { name: Google, type: select, proxies: [PROXY, 🇭🇰 香港自动选择, 🇺🇸 美国自动选择, 🇭🇰 香港节点, 🇺🇸 美国节点] }
   - { name: Telegram, type: select, proxies: [PROXY, 🇭🇰 香港自动选择, 🇺🇸 美国自动选择, 🇬🇧 英国自动选择] }
   - { name: Steam, type: select, proxies: [PROXY, DIRECT, 🇭🇰 香港自动选择, 🇯🇵 日本自动选择, 🇺🇸 美国自动选择, 🇷🇺 俄罗斯自动选择, 🇹🇷 土耳其自动选择] }
   - { name: ACGN, type: select, proxies: [🇯🇵 日本自动选择, 🇭🇰 香港自动选择, PROXY] }
@@ -431,7 +432,7 @@ rules:
   - RULE-SET,github_domain,PROXY
   - RULE-SET,microsoft_domain,Microsoft
   - RULE-SET,onedrive_domain,Microsoft
-  - RULE-SET,google_domain,PROXY
+  - RULE-SET,google_domain,Google
   - RULE-SET,telegram_domain,PROXY
   - RULE-SET,twitter_domain,PROXY
   - RULE-SET,facebook_domain,PROXY
