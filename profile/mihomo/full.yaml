@@ -383,7 +383,7 @@ proxy-groups:
   - { name: Steam, type: select, proxies: [PROXY, DIRECT, 🇭🇰 香港自动选择, 🇯🇵 日本自动选择, 🇺🇸 美国自动选择, 🇷🇺 俄罗斯自动选择, 🇹🇷 土耳其自动选择] }
   - { name: ACGN, type: select, proxies: [🇯🇵 日本自动选择, 🇭🇰 香港自动选择, PROXY] }
   - { name: Streaming, type: select, proxies: [🇺🇸 美国自动选择, 🇸🇬 新加坡自动选择, 🇯🇵 日本自动选择, 🇭🇰 香港自动选择, PROXY] }
-  - { name: Majsoul, type: select, proxies: [DIRECT, MajsoulMax] }
+  - { name: Majsoul, type: select, proxies: [DIRECT, PROXY, MajsoulMax] }
   - { name: Trackerslist, type: select, proxies: [DIRECT, PROXY] }
 
 
